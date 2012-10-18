@@ -1,0 +1,168 @@
+<html><head>
+
+<title>
+HelpBuntu - HTML Tutorials - Basics
+</title>
+
+<link rel="stylesheet" type="text/css" href="./style/style.css" />
+<link rel="shortcut icon" href="./pics/icon.png" type="image/png" />
+<link rel="icon" href="./pics/icon.png" type="image/png" /> 
+
+<meta name="revised" content="11/12/08" />
+<meta name="description" content="How to learn basic HTML web-page coding." />
+<meta name="keywords" content="Stoosh, Michael Strutt, Ubuntu, Support, Help, HelpBuntu, Linux,tutorials, html, basics, head, body, image, line break," />
+<META name="resource-type" content="document">
+<META name="distribution" content="global">
+<meta name="author" content="Michael Strutt">
+
+</head>
+<body>
+
+<table align="center" cellpadding="2" cellspacing="0" border="0" width="700">
+
+<tr><td id="title" valign="top" colspan="2">
+<script type="text/javascript">
+<!--
+var currentTime = new Date();
+var month = currentTime.getMonth() + 1;
+var day = currentTime.getDate();
+var year = currentTime.getFullYear();
+
+if(month == "12"){
+	document.write("<img src='./pics/logo_xmas.png' height='100px'>");}
+else {
+	document.write("<img src='./pics/logo.png' height='100px'>");}
+//-->
+</script>
+</td></tr><tr><td id="title" align="right" colspan="2">
+<a>Advice based on experience, not hear-say.</a>
+</td></tr><tr><td id="title" colspan="2" valign="top" align="center">
+<a href="./index.html">Home</a><a>|</a><a href="./Installation.html">Installation</a><a>|</a><a href="./applications.html">Applications</a><a>|</a><a href="./faq.html">FAQs</a><a>|</a><a href="./answers.html">Q&As</a><a>|</a><a href="./tutorials.html">Tutorials</a><a>|</a><a href="./contact.html">Contact</a><a>|</a><a href="./sitemap.html"><u>Site Map</u></a>
+</td></tr><tr><td colspan="1">
+<h3>HTML Basics</h3>
+</td><td align="right" valign="top">
+<form action="./donation.html">
+<input type="image" src="https://www.paypal.com/en_GB/i/btn/btn_donate_SM.gif" border="0" name="submit" alt="">
+<img alt="" border="0" src="https://www.paypal.com/en_GB/i/scr/pixel.gif" width="1" height="1">
+</form>
+</td></tr><tr><td colspan="2">
+<table align="center" border="0" width="100%">
+<tr><td align="center">
+<script type="text/javascript"><!--
+google_ad_client = "pub-7192718748249491";
+/* Small Horizontal List Ad, created 20/10/08 */
+google_ad_slot = "9541409119";
+google_ad_width = 468;
+google_ad_height = 15;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</td></tr></table>
+<br>
+
+<a><b>The basics for html begin with how:</b> A web-page can be written using the simplest of programs: 'Notepad'. All you need to do to save a note pad document as a web-page is the following. When you save it change the 'save type as:' option to 'all files' then when you type the file name you want simply end it with '.html', it is best not to have any spaces in the name of a web-page (use an _ instead). Then once you have viewed the web-page and want to edit it, right click on the file, go down to open with and select notepad (or the similar program you began with). The file can be open with Internet explorer and notepad at the same time, so you can save it on notepad and then click refresh on Internet explorer to view the changes.</a>
+<br><br>
+<a>In the website you will have 4 main "tags". Tags are little notes to tell the website what to do. They are contained within the &lt; &gt; symbols. Tags are opened with a &lt;<i>function</i>&gt; <i>then there is some content</i>. and finally closed with a &lt;/<i>same function</i>&gt;, the '/' being the key part for ending a function.</a>
+<br><br>
+<a><b>The main tags are:</b></a>
+<ul>
+<li><a>&lt;html&gt;&nbsp;&lt;/html&gt;&nbsp; - these go at the beginning and the end of the document, to let the computer know it is a web-page.</a></li>
+<li><a>&lt;head&gt;&nbsp;&lt;/html&gt;&nbsp; - these go after the opening &lt;html&gt; tag and define the style of a web-page and some of the more complicated functions.</a></li>
+<li><a>&lt;body&gt;&nbsp;&lt;/body&gt;&nbsp; - these go after the closing &lt;/head&gt; tag and contain the rest of the website and all the content that will be displayed.</a></li>
+<li><a>&lt;a&gt;&nbsp;&lt;/a&gt;&nbsp; - this goes within the &lt;body&gt;&nbsp;&lt;/body&gt; tags and basically displays the text between the opening and closing tag.</a></li>
+</ul>
+<br>
+<a><b>Therefor a basic website will look like this:</b></a>
+<textarea cols="60" rows="8" wrap="hard" readonly="yes">
+&lt;html&gt;&lt;head>
+
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;a&gt;Here is the text that will appear on my website.&lt;/a&gt;
+
+&lt;/body&gt;&lt;/html&gt;
+</textarea>
+<br><br>
+<a>Try it for yourself - just copy and paste the above into a notepad document and save it in the way described previously. <i>Note: it is best to name your home page 'index.html" as this is the norm in the World Wide Web.</i></a>
+<br><br>
+<a><b>Another commonly used tag</b> is the &lt;title&gt tag. This is placed within the &lt;head&gt;&nbsp;&lt;/head&gt; tags. It controls what is written at the top of the Internet 'window'. For example on this page the title is 'Stoosh's Site - HTML Basics'.</a>
+<br><br>
+<a><b>Here is how this is done:</b></a>
+<br>
+<textarea cols="60" rows="3" wrap="hard" readonly="yes">
+&lt;title&gt;
+HelpBuntu
+&lt;/title&gt;</textarea>
+<br><br>
+<a><b>The penultimate commonly used tag</b> is the &lt;img&gt; tag (image tag). It is placed in the "body" of the website and the. This one does not require a closing tag with a / as it is self contained. The image file then needs to be specified and I will show you how to do this in the example. It is a good idea to set up a separate 'pics' folder in your website for all your pictures. Assuming this is done I will link to the picture "example.jpg".</a>
+<br><br>
+<a><b>This is how:</b></a>
+<br>
+<textarea cols="60" rows="1" wrap="hard" readonly="yes">
+&lt;img src="./pics/example.jpg"&gt;</textarea>
+<br><br>
+<a>the ./ simply means to leave the file the tag is in, then /pics selects the pictures folder that is in the same folder of the document and the /example.jpg means to select the file example.jpg from the pics folder. I have done this using what is called 'relative linking' where this file pathway is given in relation to the file it is on. to explain the process: each "." means go up one level in the directory (the first "." always meaning leave the current file) then each "/" means to select the next file or folder with the name of the file or folder being written directly after it.</a>
+<br><br>
+<a><b>The last commonly used tag</b> is the &lt;br&gt; tag. This is simply a forced line brake - the equivalent of pressing enter when on a word document.</a>
+<textarea cols="60" rows="3" wrap="hard" readonly="yes">
+&lt;a&gt;This line is on top.&lt;/a&gt;
+&lt;br&gt;&lt;a&gt;This is one line below.&lt;/a&gt;
+&lt;br&gt;&lt;br&gt;&lt;a&gt;This is two lines below that.&lt;/a&gt;</textarea>
+<br><br>
+<a><b>This will display as:</b></a>
+<br><br>
+<table align="center" width="80%" border="1"><tr><td>
+<a>This line is on top.</a>
+<br><a>This is one line below.</a>
+<br><br><a>This is two lines below that.</a>
+</td></tr></table>
+
+<hr color="FFFFFF">
+<table align="center" border="0" width="100%">
+<tr><td align="center">
+<script type="text/javascript"><!--
+google_ad_client = "pub-7192718748249491";
+/* Small Horizontal List Ad, created 20/10/08 */
+google_ad_slot = "9541409119";
+google_ad_width = 468;
+google_ad_height = 15;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</td></tr></table>
+
+<p align="right">
+<a id="owner">This website was created by Michael Strutt</a>
+</p>
+</td></tr></table>
+</body>
+<!-- Start of StatCounter Code -->
+<script type="text/javascript">
+sc_project=3543012; 
+sc_invisible=1; 
+sc_partition=39; 
+sc_security="fe8900d5"; 
+sc_text=3; 
+</script>
+
+<script type="text/javascript" src="http://www.statcounter.com/counter/counter.js"></script><noscript><div class="statcounter"><a href="http://www.statcounter.com/" target="_blank"><img class="statcounter" src="http://c40.statcounter.com/3543012/0/fe8900d5/1/" alt="web metrics" ></a></div></noscript>
+<!-- End of StatCounter Code -->
+<table align="center"><tr><td>
+<script type="text/javascript"><!--
+google_ad_client = "pub-7192718748249491";
+/* Large Text and Image Ad, created 20/10/08 */
+google_ad_slot = "2003141804";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</td></tr></table>
+</html>

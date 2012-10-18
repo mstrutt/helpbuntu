@@ -1,0 +1,159 @@
+<html><head>
+
+<title>
+HelpBuntu - Terminal Commands
+</title>
+
+<link rel="stylesheet" type="text/css" href="./style/style.css" />
+<link rel="shortcut icon" href="./pics/icon.png" type="image/png" />
+<link rel="icon" href="./pics/icon.png" type="image/png" /> 
+
+<meta name="revised" content="11/12/08" />
+<meta name="description" content="A set of useful terminal commands to learn and use in Ubuntu." />
+<meta name="keywords" content="Stoosh, Michael Strutt, Ubuntu, Support, Help, HelpBuntu, Linux, " />
+<META name="resource-type" content="document">
+<META name="distribution" content="global">
+<meta name="author" content="Michael Strutt">
+
+</head>
+<body>
+
+<table align="center" cellpadding="2" cellspacing="0" border="0" width="700">
+
+<tr><td id="title" valign="top" colspan="2">
+<script type="text/javascript">
+<!--
+var currentTime = new Date();
+var month = currentTime.getMonth() + 1;
+var day = currentTime.getDate();
+var year = currentTime.getFullYear();
+
+if(month == "12"){
+	document.write("<img src='./pics/logo_xmas.png' height='100px'>");}
+else {
+	document.write("<img src='./pics/logo.png' height='100px'>");}
+//-->
+</script>
+</td></tr><tr><td id="title" align="right" colspan="2">
+<a>Advice based on experience, not here-say.</a>
+</td></tr><tr><td id="title" colspan="2" valign="top" align="center">
+<a href="./index.html">Home</a><a>|</a><a href="./Installation.html">Installation</a><a>|</a><a href="./applications.html">Applications</a><a>|</a><a href="./faq.html">FAQs</a><a>|</a><a href="./answers.html">Q&As</a><a>|</a><a href="./tutorials.html">Tutorials</a><a>|</a><a href="./contact.html">Contact</a><a>|</a><a href="./sitemap.html">Site Map</a>
+</td></tr><tr><td colspan="1">
+<h3>Terminal Commands</h3>
+</td><td align="right" valign="top">
+<form action="./donation.html">
+<input type="image" src="https://www.paypal.com/en_GB/i/btn/btn_donate_SM.gif" border="0" name="submit" alt="">
+<img alt="" border="0" src="https://www.paypal.com/en_GB/i/scr/pixel.gif" width="1" height="1">
+</form>
+
+</td></tr><tr><td colspan="2">
+<table align="center" border="0" width="100%">
+<tr><td align="center">
+<script type="text/javascript"><!--
+google_ad_client = "pub-7192718748249491";
+/* Small Horizontal List Ad, created 20/10/08 */
+google_ad_slot = "9541409119";
+google_ad_width = 468;
+google_ad_height = 15;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</td></tr></table>
+<br>
+
+
+<a><b>Useful Diagnostic when asking for help</b> - If the problem is with a specific program, run it in terminal (command can be found from System >> Preferences >> Main Menu) and then preform the task that had problems, and information about the error should be there to copy and paste from terminal.</a>
+<br><br>
+<a>This is a list of useful terminal commands and what they do. Remember all terminal commands are case sensitive and spaces in path names (eg /home/me/my folder/) should be treated either with a backward slash <i>/home/me/my\ folder/</i> or in quotations <i>"/home/me/my folder/"</i> - for ease of use replace a space with an _ (underscore).</a>
+<br><br>
+
+<table border="1" width="90%" align="center"><tr><td width="20%" align="center">
+<a><i>cd</i></a>
+</td><td>
+<a>Short for Change Directory. It will change the folder you are operating in. By default you are operating in you users directory <i>/home/exampleuser/</i> ; simply type in the new directory eg <i>cd /home/exampleuser/Documents</i> to work in that folder.</a>
+</td></tr><tr><td width="20%" align="center">
+<a><i>dir</i></a>
+</td><td>
+<a>This will probe the given directory and display the contents of that folder to show any files or folders inside it. eg <i>dir /example/pathway</i></a>
+</td></tr><tr><td width="20%" align="center">
+<a><i>gksu</i></a>
+</td><td>
+<a>This applies root privileges to a program that opens in as separate window. The program command can be found via System >> Preferences >> Main Menu. eg <i>gksu nautilus</i> will open a root owned file browser.</a>
+</td></tr><tr><td width="20%" align="center">
+<a><i>gunzip</i></a>
+</td><td>
+<a>To unzip an archive that ends with the .gz extension. eg <i>gunzip /example/pathway/archive.tar.gz</a>
+</td></tr><tr><td width="20%" align="center">
+<a><i>killall</i></a>
+</td><td>
+<a>If a program stops functioning close it down by killing all the processes involved. eg <i>killall vlc</i> will completely close down a non-responsive vlc media player.</a>
+</td></tr><tr><td width="20%" align="center">
+<a><i>sudo</i></a>
+</td><td>
+<a>applies root privileges to the command that follows it (after a single space on the same line).</a>
+</td></tr><tr><td width="20%" align="center">
+<a><i>sudo apt-get install</i></a>
+</td><td>
+<a>This will install a program that follows on that line. eg <i>sudo apt-get install vlc</i> will install vlc media player.</a>
+</td></tr><tr><td width="20%" align="center">
+<a><i>sudo apt-get autoremove</i></a>
+</td><td>
+<a>After installing and removing some software occasionally run this command to remove any un-needed dependencies and log files from the computer.</a>
+</td></tr><tr><td width="20%" align="center">
+<a><i>sudo apt-get upgrade</i></a>
+</td><td>
+<a>This will install any updates quickly and easily when the notification icon appears.</a>
+</td></tr><tr><td width="20%" align="center">
+<a><i>sudo su</i></a>
+</td><td>
+<a>If you need to perform a lot of commands with root privileges you can become the root user in terminal (you will need to type your password on prompt). To then stop being the root user simply type <i>exit</i> and press Enter.</a>
+</td></tr></table>
+
+<br><br><hr color="FFFFFF">
+<table align="center" border="0" width="100%">
+<tr><td align="center">
+<script type="text/javascript"><!--
+google_ad_client = "pub-7192718748249491";
+/* Small Horizontal List Ad, created 20/10/08 */
+google_ad_slot = "9541409119";
+google_ad_width = 468;
+google_ad_height = 15;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</td></tr></table>
+
+<p align="right">
+<a id="owner">This website was created by Michael Strutt</a>
+</p>
+</td></tr></table>
+</body>
+<!-- Start of StatCounter Code -->
+<script type="text/javascript">
+sc_project=3543012; 
+sc_invisible=1; 
+sc_partition=39; 
+sc_security="fe8900d5"; 
+sc_text=3; 
+</script>
+
+<script type="text/javascript" src="http://www.statcounter.com/counter/counter.js"></script><noscript><div class="statcounter"><a href="http://www.statcounter.com/" target="_blank"><img class="statcounter" src="http://c40.statcounter.com/3543012/0/fe8900d5/1/" alt="web metrics" ></a></div></noscript>
+<!-- End of StatCounter Code -->
+<table align="center"><tr><td>
+<script type="text/javascript"><!--
+google_ad_client = "pub-7192718748249491";
+/* Large Text and Image Ad, created 20/10/08 */
+google_ad_slot = "2003141804";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</td></tr></table>
+</html>

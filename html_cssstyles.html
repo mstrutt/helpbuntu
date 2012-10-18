@@ -1,0 +1,224 @@
+<html><head>
+
+<title>
+HelpBuntu - HTML Tutorials - CSS Styles
+</title>
+
+<link rel="stylesheet" type="text/css" href="./style/style.css" />
+<link rel="shortcut icon" href="./pics/icon.png" type="image/png" />
+<link rel="icon" href="./pics/icon.png" type="image/png" /> 
+
+<meta name="revised" content="11/12/08" />
+<meta name="description" content="How to learn to use CSS Styles in a web-page." />
+<meta name="keywords" content="Stoosh, Michael Strutt, Ubuntu, Support, Help, HelpBuntu, Linux, tutorials, html, css, style," />
+<META name="resource-type" content="document">
+<META name="distribution" content="global">
+<meta name="author" content="Michael Strutt">
+
+</head>
+<body>
+
+<table align="center" cellpadding="2" cellspacing="0" border="0" width="700">
+
+<tr><td id="title" valign="top" colspan="2">
+<script type="text/javascript">
+<!--
+var currentTime = new Date();
+var month = currentTime.getMonth() + 1;
+var day = currentTime.getDate();
+var year = currentTime.getFullYear();
+
+if(month == "12"){
+	document.write("<img src='./pics/logo_xmas.png' height='100px'>");}
+else {
+	document.write("<img src='./pics/logo.png' height='100px'>");}
+//-->
+</script>
+</td></tr><tr><td id="title" align="right" colspan="2">
+<a>Advice based on experience, not hear-say.</a>
+</td></tr><tr><td id="title" colspan="2" valign="top" align="center">
+<a href="./index.html">Home</a><a>|</a><a href="./Installation.html">Installation</a><a>|</a><a href="./applications.html">Applications</a><a>|</a><a href="./faq.html">FAQs</a><a>|</a><a href="./answers.html">Q&As</a><a>|</a><a href="./tutorials.html">Tutorials</a><a>|</a><a href="./contact.html">Contact</a><a>|</a><a href="./sitemap.html"><u>Site Map</u></a>
+</td></tr><tr><td colspan="1">
+<h3>CSS Styles</h3>
+</td><td align="right" valign="top">
+<form action="./donation.html">
+<input type="image" src="https://www.paypal.com/en_GB/i/btn/btn_donate_SM.gif" border="0" name="submit" alt="">
+<img alt="" border="0" src="https://www.paypal.com/en_GB/i/scr/pixel.gif" width="1" height="1">
+</form>
+</td></tr><tr><td colspan="2">
+<table align="center" border="0" width="100%">
+<tr><td align="center">
+<script type="text/javascript"><!--
+google_ad_client = "pub-7192718748249491";
+/* Small Horizontal List Ad, created 20/10/08 */
+google_ad_slot = "9541409119";
+google_ad_width = 468;
+google_ad_height = 15;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</td></tr></table>
+<br>
+
+<a>Using css to style is useful because it styles your entire page with just one section of script at the top. The style goes within the &lt;style&gt; &lt;/style&gt; tags between the &lt;head&gt; &lt;/head&gt; tags of the website. A style is an alternate for almost all of the styling techniques shown in </a><a href="./html_style.html">the previous section on styling</a><a> (they can be combined in small sections). This is a break-down of the most commonly used parts for a web-page:</a><br><br>
+<table border="0" width="100%"><tr><td colspan="2">
+<hr color="FFFFFF">
+</td></tr><tr><td width="20%">
+<p><a>
+body {<br>
+background-color: FFFFFF;<br>
+}
+</a></p>
+</td><td>
+
+<a>This styles the body of the web-page, you can place the 6 character code for </a><a target="blank" href="http://www.pagetutor.com/common/bgcolors1536.html">the colour you want</a><a> in place of the FFFFFF (this would give a white background at the moment).</a>
+
+</td></tr><tr><td colspan="2">
+<hr color="FFFFFF">
+</td></tr><tr><td>
+<p><a>
+a:link { <br>
+color: FF0000;<br>
+font-size: 15px;<br>
+border: none;<br>
+font-family: Tahoma;<br>
+text-decoration: none;<br>
+}
+</a></p>
+</td><td>
+
+<a>This styles a standard hyperlink on your web-page.  you can place the 6 character code for </a><a target="blank" href="http://www.pagetutor.com/common/bgcolors1536.html">the colour you want</a><a> in place of the FF00 (this would give a red hyperlink at the moment). Fontsize in 'px' means how many pixels big you want the tall letters to be and is roughly equivalent to the font sizes on Microsoft word. The 'border' decides whether or not the link has a border around it. Personally i don't think this works and so I chose none (not many people use a border). However, if you want one the simple enter the number of 'px' border you want similar to fontsize. Font-family is simply which font you want to use (I am using Tahoma). text-decoration can style using things like 'underline' (very commonly used) or others. For a full list of css attributes, </a><a target="blank" href="http://www.tizag.com/cssT/reference.php">click here</a><a>.</a>
+
+</td></tr><tr><td colspan="2">
+<hr color="FFFFFF">
+</td></tr><tr><td>
+<p><a>
+a:visited { <br>
+color: FF8800;<br>
+font-size: 15px;<br>
+border: none;<br>
+font-family: Tahoma;<br>
+text-decoration: none;<br>
+}
+</a></p>
+</td><td>
+
+<a>This styles a visited hyperlink on your web-page.  you can place the 6 character code for </a><a target="blank" href="http://www.pagetutor.com/common/bgcolors1536.html">the colour you want</a><a> in place of the FF8800 (this would give an orange hyperlink at the moment). It is a good idea to have the visited links a different colour to others so the viewer know where they have and haven't been. Though this is not essential and I have opted not to.. Fontsize in 'px' means how many pixels big you want the tall letters to be and is roughly equivalent to the font sizes on Microsoft word. The 'border' decides whether or not the link has a border around it. Personally i don't think this works and so I chose none (not many people use a border). However, if you want one the simple enter the number of 'px' border you want similar to fontsize. Font-family is simply which font you want to use (I am using Tahoma). text-decoration can style using things like 'underline' (very commonly used) or others. For a full list of css attributes, </a><a target="blank" href="http://www.tizag.com/cssT/reference.php">click here</a><a>.</a>
+
+</td></tr><tr><td colspan="2">
+<hr color="FFFFFF">
+</td></tr><tr><td>
+<p><a>
+a:link:hover { <br>
+color: FF0000;<br>
+font-size: 15px;<br>
+border: none;<br>
+font-family: Tahoma;<br>
+text-decoration: underline;<br>
+} 
+</a></p>
+</td><td>
+
+<a>This styles a standard hyperlink on your web-page when the mouse is over it. I strongly advise that you have some sort of change between a normal link and when it is being hovered, this helps to distinguish it from normal text.  you can place the 6 character code for </a><a target="blank" href="http://www.pagetutor.com/common/bgcolors1536.html">the colour you want</a><a> in place of the FF0000 (this would give a red hyperlink at the moment). Fontsize in 'px' means how many pixels big you want the tall letters to be and is roughly equivalent to the font sizes on Microsoft word. The 'border' decides whether or not the link has a border around it. Personally i don't think this works and so I chose none (not many people use a border). However, if you want one the simple enter the number of 'px' border you want similar to fontsize. Font-family is simply which font you want to use (I am using Tahoma). text-decoration can style using things like 'underline'. I find this is a great way to distinguish a hyperlink subtly is to have it underline when hovered. For a full list of css attributes, </a><a target="blank" href="http://www.tizag.com/cssT/reference.php">click here</a><a>.</a>
+
+</td></tr><tr><td colspan="2">
+<hr color="FFFFFF">
+</td></tr><tr><td>
+<p><a>
+a:visited:hover { <br>
+color: FF8800;<br>
+font-size: 15px;<br>
+border: none;<br>
+font-family: Tahoma;<br>
+text-decoration: underline;<br>
+} 
+</a></p>
+</td><td>
+
+<a>This styles a visited hyperlink on your web-page when hovered. With these it is a good idea to have them the same style as a normal visited link but with the change from normal to hover applied. For example a visited link still underlines when hovered but is orange instead of red.  you can place the 6 character code for </a><a target="blank" href="http://www.pagetutor.com/common/bgcolors1536.html">the colour you want</a><a> in place of the FF8800 (this would give an orange hyperlink at the moment). Fontsize in 'px' means how many pixels big you want the tall letters to be and is roughly equivalent to the font sizes on Microsoft word. The 'border' decides whether or not the link has a border around it. Personally i don't think this works and so I chose none (not many people use a border). However, if you want one the simple enter the number of 'px' border you want similar to fontsize. Font-family is simply which font you want to use (I am using Tahoma). text-decoration can style using things like 'underline' (very commonly used) or others. For a full list of css attributes, </a><a target="blank" href="http://www.tizag.com/cssT/reference.php">click here</a><a>.</a>
+
+</td></tr><tr><td colspan="2">
+<hr color="FFFFFF">
+</td></tr><tr><td>
+<p><a>
+a { <br>
+color: 000000;<br>
+font-size: 15px;<br>
+font-family: Tahoma;<br>
+text-decoration: none;<br>
+}
+</a></p>
+</td><td>
+
+<a>This styles all the general text on you web-page (but has to be contained within the &lt;a&gt; &lt;/a&gt; tags). First and foremost, make sure it is readable when up against your selected background. You can place the 6 character code for </a><a target="blank" href="http://www.pagetutor.com/common/bgcolors1536.html">the colour you want</a><a> in place of the 000000 (this would give black text at the moment). Fontsize in 'px' means how many pixels big you want the tall letters to be and is roughly equivalent to the font sizes on Microsoft word. Font-family is simply which font you want to use (I am using Tahoma). text-decoration can style using things like 'underline' (less commonly used for plain text) or others. For a full list of css attributes, </a><a target="blank" href="http://www.tizag.com/cssT/reference.php">click here</a><a>.</a>
+
+</td></tr><tr><td colspan="2">
+<hr color="FFFFFF">
+</td></tr><tr><td>
+<p><a>
+h1 { <br>
+color: FFFFFF;<br>
+font-size: 30px;<br>
+font-family: Tahoma;<br>
+text-decoration: none;<br>
+}
+</a></p>
+</td><td>
+
+<a>This can be used to style the headings of you web-page (can be done for sub headings too). These should have subtle but noticeable changes from the normal text, for example bigger font size, or bold and underlined. They can be styled in the same way as normal text.</a>
+
+</td></tr><tr><td colspan="2">
+<hr color="FFFFFF">
+</td></tr></table>
+
+<a>For a complete list of css attributes, </a><a target="blank" href="http://www.tizag.com/cssT/reference.php">click here</a><a>.</a>
+<br>
+
+<hr color="FFFFFF">
+<table align="center" border="0" width="100%">
+<tr><td align="center">
+<script type="text/javascript"><!--
+google_ad_client = "pub-7192718748249491";
+/* Small Horizontal List Ad, created 20/10/08 */
+google_ad_slot = "9541409119";
+google_ad_width = 468;
+google_ad_height = 15;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</td></tr></table>
+
+<p align="right">
+<a id="owner">This website was created by Michael Strutt</a>
+</p>
+</td></tr></table>
+</body>
+<!-- Start of StatCounter Code -->
+<script type="text/javascript">
+sc_project=3543012; 
+sc_invisible=1; 
+sc_partition=39; 
+sc_security="fe8900d5"; 
+sc_text=3; 
+</script>
+
+<script type="text/javascript" src="http://www.statcounter.com/counter/counter.js"></script><noscript><div class="statcounter"><a href="http://www.statcounter.com/" target="_blank"><img class="statcounter" src="http://c40.statcounter.com/3543012/0/fe8900d5/1/" alt="web metrics" ></a></div></noscript>
+<!-- End of StatCounter Code -->
+<table align="center"><tr><td>
+<script type="text/javascript"><!--
+google_ad_client = "pub-7192718748249491";
+/* Large Text and Image Ad, created 20/10/08 */
+google_ad_slot = "2003141804";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</td></tr></table>
+</html>
