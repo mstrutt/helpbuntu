@@ -38,13 +38,13 @@
 
 	<p>To obtain an Ubuntu installation CD, the best way is to download it and create it yourself. Plus, it's FREE. You can download it from: <a target="blank" href="http://www.ubuntu.com/getubuntu/download">ubuntu.com/getubuntu/download</a>.</p>
 
-	<p align="center"><img height="300px" src="./pics/screenshot1.gif"></p>
+	<p align="center"><img height="300px" src="/pics/screenshot1.gif"></p>
 
 	<p>This is the first page you will go on for the download, select the version of Ubuntu you want, I went for desktop edition 7.10, select the type of computer you have - if unsure leave it as what is selected, chose your location under Europe I chose great Britain Virgin Media because this seemed like a good download source. This installation guide is for the alternate CD only which is easier so check the box at the bottom. The display will then look like the picture. Then click on start download.</p>
 	
 	<p>Once this has downloaded it is advisable to check that the download has worked properly. To do this you will need a piece of software called MD5Sum. <a target="blank" href="http://www.nullriver.com/index/products/winmd5sum">Click here to download</a>. Once you have installed this simply use it to open the location of your download and wait for it to give you a number. When it does, check this against the number for your version of Ubuntu in the table on <a target="blank" href="https://help.ubuntu.com/community/UbuntuHashes">this page</a>.</p>
 
-	<p align="center"><img width="400px" src="./pics/screenshot2.gif"></p>
+	<p align="center"><img width="400px" src="/pics/screenshot2.gif"></p>
 
 	<p>Here is the section of the table relevant but if you are using different options follow the link. Now you will need to burn the file onto disk. To do this you will need software that can specifically handle '.ISO' files. The one I recommend is <a target="blank" href="http://infrarecorder.sourceforge.net/?page_id=5">Infra Recorder</a>. Once you have downloaded and installed this simply insert a blank disk, open up Infra Recorder, on the tool bar at the top click 'Actions' and then 'Burn Image'.</p>
 
@@ -54,7 +54,7 @@
 
 	<p>Insert the CD you have just made into the CD drive of the computer you wish to install Ubuntu on, and restart the computer with the disk still inside. In more modern computers this will load automatically to a screen looking like this: (skip to installation continued section).</p>
 
-	<p align="center"><img width="400px" src="./pics/screenshot3.gif"></p>
+	<p align="center"><img width="400px" src="/pics/screenshot3.gif"></p>
 
 	<p>If not, you will have to do what I had to do. Reboot the computer again and watch carefully as it loads up, there will be an option similar to 'Press F2 to enter set-up'. When this appears press the specified key. There will be a title similar to 'Boot From Drive:' press the key to edit this option and change the primary drive to 'CD-ROM' or similar. Then Select the option to reboot your computer and it should work.</p>
 	
@@ -70,7 +70,7 @@
 
 	<p>This is because I wanted everything on my hard drive to be whipped clean and remove the previous operating system. Again see <a target="blank" href="http://users.bigpond.net.au/hermanzone/p3.htm">this site</a> for additional help with other options in this section. After this a long process of loading will follow with the occasional prompt, but not a patch on the time taken to set-up a pre-installed version of Windows Vista. Once this has finished the computer should eject the CD and prompt a reboot. When this happens remove both the CD and the Floppy Disk, then you will want to follow the process previously described and change the boot drive back to your hard drive. Ubuntu will now load and you will reach the login screen. Simply enter your username, and password if you chose one, and press enter.</p>
 
-	<p align="center"><img width="400px" src="./pics/screenshot4.gif"></p>
+	<p align="center"><img width="400px" src="/pics/screenshot4.gif"></p>
 
 	<p>Congratulations, you are now an official member of the Ubuntu community. For a list of some good applications for Ubuntu, completely free, see <a  href="./applications.html">my applications page</a>, and for any additional or ongoing support see the <a target="blank" href="https://help.ubuntu.com/">Ubuntu support site</a> or ask in the <a target="blank" href=http://www.ubuntuforums.org>Ubuntu forums</a>.</p>
 
