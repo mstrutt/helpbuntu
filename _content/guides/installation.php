@@ -2,15 +2,13 @@
 
 	<p>Hello and welcome to my Ubuntu installation guide. This is where I felt there was a lack in documentation for how to install the alternate CD for Ubuntu 7.10 from start to finish. Hence, I made a guide that people can use. Ubuntu is a free operating system (alternate to Windows or Mac) that is <a target="blank" href="http://www.Linux.org">Linux</a> Based. To find out about Ubuntu and why it may be right for you <a target="blank" href="http://www.ubuntu.com">click here</a>.</p>
 
-	<hr color="FFFFFF">
-
 	<h2>Preparation</h2>
 
 	<table border="0" width="100%">
 		<tr>
 			<td width="67%">
 				<h3>System Requirements</h3>
-				<ul>
+				<ul class="bulleted">
 					<li>At least 64 MB of Ram - (any computer made after 1995 will be fine but the higher the better)</li>
 					<li>A hard drive with at least 5GB - (80GB is standard now so not to worry if it is a non-ancient computer)</li>
 					<li>A CD-Rom Drive - (or CD-R/W, DVD-Rom, DVD-R/W - basically somewhere to put a CD into the computer)</li>
@@ -20,7 +18,7 @@
 			</td>
 			<td valign="top" width="33%">
 				<h3>Software that is likely to be needed</h3>
-				<ul>
+				<ul class="bulleted">
 					<li><a target="blank" href="http://www.ubuntu.com/getubuntu/download">Ubuntu Download</a></li>
 					<li><a target="blank" href="http://www.nullriver.com/index/products/winmd5sum">MD5sum</a></li>
 					<li><a target="blank" href="http://infrarecorder.sourceforge.net/?page_id=5">Infra Recorder</a></li>
@@ -35,8 +33,6 @@
 			</td>
 		</tr>
 	</table>
-
-	<hr color="FFFFFF">
 
 	<h2>Obtaining the Disk</h2>
 
@@ -54,8 +50,6 @@
 
 	<p>Select the file you downloaded and then click OK, it will ask you to name the disk, pick something sensible like 'Ubuntu Disk'. When this has finished you have the disk required to install Ubuntu.</p>
 
-	<hr color="FFFFFF">
-
 	<h2>Installing Ubuntu</h2>
 
 	<p>Insert the CD you have just made into the CD drive of the computer you wish to install Ubuntu on, and restart the computer with the disk still inside. In more modern computers this will load automatically to a screen looking like this: (skip to installation continued section).</p>
@@ -67,8 +61,6 @@
 	<p>If again this doesn' work, as happened with me, then you will need to do the following (this requires a floppy disk drive and a blank floppy disk. Find the file 'sbm.bin' under the /install folder on the Ubuntu CD. If you can't find it you can download it from <a target="blank" href="http://linux.simple.be/tools/sbm">this link</a>, and click on 'sbm.img' to begin the download. Then you will need to download a program called <a target="blank" href="http://www.chrysocome.net/rawwrite">RawWrite</a>, 'Extract' it and install it. First insert the floppy disk and then format it. Open a command prompt (Start / Run / "cmd") if this doesn't work search for an application called 'dos prompt' or similar. It will be a black box with white writing) and type: '<i>format a:</i>' and then press enter. It may ask you to name the drive but simply pressing enter when this option comes up will leave it with the name it has. When this has stopped doing something then type: '<i>rawrite 'f sbm.bin</i>', and press enter (this is a rawrite command). When this is finished close the box and the floppy disk will be complete.<i> note: the floppy disk will appear to have nothing on it as it is a hidden system file. Label the floppy disk to avoid confusion.</i></p>
 
 	<p>Now reboot the computer with both the floppy disk and the Ubuntu CD in and watch carefully as it loads up. There will be an option similar to 'Press F2 to enter set-up'. When this appears press the specified key as before, and in the same way that you selected to boot from the CD-ROM drive select to boot from drive 'a:' Then Select the option to reboot your computer and, providing the rest has been done correctly then a screen will load with the title 'Smart Boot Manager'. Use the arrow keys to scroll down to the option that says 'Boot from CD-ROM' or similar. This will then load the Ubuntu start-up page as shown before.</p>
-
-	<hr color="FFFFFF">
 
 	<h2>Installation Continued...</h2>
 
