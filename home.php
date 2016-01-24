@@ -11,10 +11,7 @@
 	?>
 	<head>
 		<meta charset="UTF-8" />
-		<meta name="author" content="Michael Strutt" />			
-		<meta name="description" content="MStrutt.co.uk is the personal portfolio site of Michael Strutt, a 21 year old Computer Science Student at Loughborough University, Working in London as a User Experience Developer." />
-		<meta name="keywords" content="Web Design, Web Development, HTML, CSS, JavaScript, jQuery, PHP, HTML5, CSS3, ei8hty ei8ht, lborostudent" />
-		<meta name="revised" content="2011-11-27 19:12" />
+		<meta name="author" content="Michael Strutt" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 		<?php
 			if(isset($_GET['page'])){
@@ -85,7 +82,7 @@
 				?>
 			</div>
 			<footer>
-				<p>Copy Right Michael Strutt 2011 &copy; | all rights reserved</p>
+				<p>Copy Right Michael Strutt 2007 - <?php echo date('Y') ?> &copy; | all rights reserved</p>
 			</footer>
 		</div>
 			<!-- Start of StatCounter Code -->
