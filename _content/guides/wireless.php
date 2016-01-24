@@ -7,12 +7,10 @@
 
 	<p>For the WG111v3 this code will gather and unzip the files in your <i>/home/your_user_name/</i> directory.</p>
 
-	<pre>
-wget http://helpbuntu.mstrutt.co.uk/downloads/ndiswrapper.tar.gz
+<pre>wget http://helpbuntu.mstrutt.co.uk/downloads/ndiswrapper.tar.gz
 wget http://helpbuntu.mstrutt.co.uk/downloads/WG111v3.tar.bz2
 tar xvvf ndiswrapper.tar.gz
-tar xvvf WG111v3.tar.bz2
-	</pre>
+tar xvvf WG111v3.tar.bz2</pre>
 
 	<p>For others use the same ndiswrapper code but you will need to find your own .inf and .sys files requires for your USB adapter.</p>
 
@@ -20,8 +18,7 @@ tar xvvf WG111v3.tar.bz2
 
 	<p>This code for WG111v3:</p>
 
-	<pre>
-cd ndiswrapper-1.54-2.6.27.7
+<pre>cd ndiswrapper-1.54-2.6.27.7
 make
 sudo su
 apt-get -y remove ndiswrapper-common
@@ -31,8 +28,7 @@ ndiswrapper -i ../WG111/WG111v3.inf
 depmod -a
 modprobe ndiswrapper
 ndiswrapper -m
-exit
-	</pre>
+exit</pre>
 
 	<p>
 		Enter Your Password on prompt after <code>sudo su</code>
