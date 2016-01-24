@@ -8,10 +8,10 @@
 	<p>For the WG111v3 this code will gather and unzip the files in your <i>/home/your_user_name/</i> directory.</p>
 
 	<pre>
-		wget http://helpbuntu.mstrutt.co.uk/downloads/ndiswrapper.tar.gz
-		wget http://helpbuntu.mstrutt.co.uk/downloads/WG111v3.tar.bz2
-		tar xvvf ndiswrapper.tar.gz
-		tar xvvf WG111v3.tar.bz2
+wget http://helpbuntu.mstrutt.co.uk/downloads/ndiswrapper.tar.gz
+wget http://helpbuntu.mstrutt.co.uk/downloads/WG111v3.tar.bz2
+tar xvvf ndiswrapper.tar.gz
+tar xvvf WG111v3.tar.bz2
 	</pre>
 
 	<p>For others use the same ndiswrapper code but you will need to find your own .inf and .sys files requires for your USB adapter.</p>
@@ -21,17 +21,17 @@
 	<p>This code for WG111v3:</p>
 
 	<pre>
-		cd ndiswrapper-1.54-2.6.27.7
-		make
-		sudo su
-		apt-get -y remove ndiswrapper-common
-		apt-get -y install build-essential debian-keyring g++-multilib g++-4.3-multilib gcc-4.3-doc libstdc++6-4.3-dbg libstdc++6-4.3-doc diff-doc lib64stdc++6-4.3-dbg lib64mudflap0
-		make install
-		ndiswrapper -i ../WG111/WG111v3.inf
-		depmod -a
-		modprobe ndiswrapper
-		ndiswrapper -m
-		exit
+cd ndiswrapper-1.54-2.6.27.7
+make
+sudo su
+apt-get -y remove ndiswrapper-common
+apt-get -y install build-essential debian-keyring g++-multilib g++-4.3-multilib gcc-4.3-doc libstdc++6-4.3-dbg libstdc++6-4.3-doc diff-doc lib64stdc++6-4.3-dbg lib64mudflap0
+make install
+ndiswrapper -i ../WG111/WG111v3.inf
+depmod -a
+modprobe ndiswrapper
+ndiswrapper -m
+exit
 	</pre>
 
 	<p>
