@@ -17,6 +17,8 @@ Options +FollowSymLinks
   ForceType application/x-httpd-php
 </Files> 
 
+Redirect 301 /installation2?.html http://helpbuntu.mstrutt.co.uk/guides/installation
+
 <IfModule mod_rewrite.c>
   # Rewrite URLs of the form 'x' to the form 'index.php?q=x'.
   RewriteCond %{REQUEST_FILENAME} !-f
