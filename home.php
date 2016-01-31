@@ -46,7 +46,7 @@
 			<header>
 				<p class="title" title="Advice based on experience, not hear-say.">helpbuntu</p>
 				<nav>
-					<a href="/home.php">Home</a>
+					<a href="/">Home</a>
 					<a href="/tux">Tux</a>
 					<a href="/guides">Guides</a>
 					<a href="/products">Products</a>
