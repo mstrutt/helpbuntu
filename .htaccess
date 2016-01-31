@@ -17,7 +17,17 @@ Options +FollowSymLinks
   ForceType application/x-httpd-php
 </Files> 
 
-Redirect 301 /installation2?.html http://helpbuntu.mstrutt.co.uk/guides/installation
+Redirect 301 /index.html http://helpbuntu.mstrutt.co.uk
+Redirect 301 /tux.html http://helpbuntu.mstrutt.co.uk/tux
+Redirect 301 /tutorials.html http://helpbuntu.mstrutt.co.uk/guides
+Redirect 301 /installation.html http://helpbuntu.mstrutt.co.uk/guides/installation
+Redirect 301 /installation2.html http://helpbuntu.mstrutt.co.uk/guides/installation
+Redirect 301 /wireless.html http://helpbuntu.mstrutt.co.uk/guides/wireless
+Redirect 301 /terminal.html http://helpbuntu.mstrutt.co.uk/guides/terminal
+Redirect 301 /metapixel.html http://helpbuntu.mstrutt.co.uk/products/metapixel
+Redirect 301 /answers.html http://helpbuntu.mstrutt.co.uk/support/answers
+Redirect 301 /faq.html http://helpbuntu.mstrutt.co.uk/support/faq
+Redirect 301 /contact.html http://helpbuntu.mstrutt.co.uk/contact
 
 <IfModule mod_rewrite.c>
   # Rewrite URLs of the form 'x' to the form 'index.php?q=x'.

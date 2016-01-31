@@ -1,6 +1,7 @@
 <!DOCTYPE HTML>
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<?php
+		include('bootstrap.php');
 		function myinclude($page) {
 			if(file_exists($page)){
 				include($page);

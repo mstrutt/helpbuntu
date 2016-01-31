@@ -5,7 +5,6 @@
 	<p>Answers are in chronological order, with most recent at the top</p>
 
 	<ul class="faq">
-	
 		<li>
 			<h3>Question - Tobs</h3>
 			
